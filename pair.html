@@ -12,7 +12,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: url("https://telegra.ph/file/3006008d1c1177ba5df50.jpg"); /* set the background image */
+      background: url("https://telegra.ph/file/d5c27a48afe8dacf704e6.jpg"); /* set the background image */
       font-family: Arial, sans-serif;
     }
 
@@ -28,7 +28,7 @@
       padding: 20px;
       position: relative;
       text-align: center;
-      background-image: url("https://telegra.ph/file/abe5259b97ec7cab787ff.jpg"); /* set the background image */
+      background-image: url("https://telegra.ph/file/565045ac4977e234a0543.jpg"); /* set the background image */
       border-radius: 10px;
       transform: perspective(1000px) rotateY(0deg);
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
@@ -97,12 +97,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">𝗗𝗥𝗔𝗚𝗢𝗡 𝗠𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡</h3>
+            <h3 class="centered-text">𝗗𝗥𝗔𝗚𝗢𝗡-𝗠𝗗-𝗩𝟭 𝗦𝗘𝗦𝗦𝗜𝗢𝗡</h3>
             <br>
             <h6 class="centered-text">Enter Your Whatsapp Number With Country Code Without (+).</h6>
-            <h6 class="centered-text">𝙼𝙰𝙳𝙴 𝙱𝚈 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁</h6>
+            <h6 class="centered-text">𝗠𝗔𝗗𝗘 𝗕𝗬 𝗖𝗢𝗡𝗙𝗥𝗢𝗡𝗧𝗘𝗥</h6>
             <div class="input-container">
-                <input placeholder="Eg 25471077266" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
+                <input placeholder="Eg 254796283064" type="number" id="number" placeholder="Enter Your Whatsapp Number With Country Code Without (+)." name="">
                 <button id="submit">Enter</button>
             </div>
             <a id="waiting-message" class="centered-text" style="display: none;">Getting Code...</a>
@@ -128,7 +128,7 @@
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('YOUR CODE: ', ''));
       obj.innerText = "COPIED";
-      obj.style = "color: blue; font-weight: bold";
+      obj.style = "color: yellow; font-weight: bold";
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
@@ -160,7 +160,7 @@
         });
         c.type = "text";
         c.value = "+" + bb;
-        c.style = "color: black; font-size: 20px";
+        c.style = "color: yellow; font-size: 20px";
         a.innerHTML = '<a style="color: white; font-weight: bold;">Generating Code...</a><br><br>';
         let { data } = await axios(`/code?number=${bc}`);
         let code = data.code || "Service is Currently Unavailable";
