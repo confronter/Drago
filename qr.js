@@ -59,35 +59,27 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-𝗗𝗥𝗔𝗚𝗢𝗡 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝚁𝚄𝙽𝙽𝙸𝙽𝙶**
-*𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁*
-*𝙊𝙒𝙉𝙀𝙍 : 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁 𝚃𝙴𝙲𝙷*
-____________________________________
-╔════◇
-║『  𝗗𝗥𝗔𝗚𝗢𝗡 𝗠𝗗 𝙄𝙎 𝙍𝙀𝘼𝘿𝙔 𝙏𝙊 𝘿𝙀𝙋𝙇𝙊𝙔』
-║ OK YOUR SESSION IS READY COPY IT  
-║ AND HOST IT ON HEROKU.
-╚════════════════════╝
-╔═════◇
-║ 『••• OWNER INFO •••』
-║ ❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@Confrontertech_
+𝐃𝚪𝚫𝐆𝚯𝚴 𝚳𝐃 𝛁1 𝐒𝚵𝐒𝐒𝚰𝚯𝚴 𝚪𝚵𝚫𝐃𝐘
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254796283064
+💀𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ••
+🪓 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@Confrontertech_
 
-║ ❒ 𝐑𝐞𝐩𝐨: _https://github.com/confronter/Dragon-Md-V1
+🪓 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254796283064
 
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe_
+🪓 𝐑𝐞𝐩𝐨: _https://github.com/confronter/Dragon-Md-V1
 
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39_
+🪓 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe_
 
-║ ❒ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/confronter.__
+🪓 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39_
 
-║ 🐲🐉🐲
-╚════════════════════╝ 
- *🐉𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁🐉*
-___________________________________
+🪓 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/confronter.__
 
-Don't Forget To Give Star⭐ To My Repo`
+    🐲🐉🐲
+
+ *🐉𝗕𝗬 𝗖𝗢𝗡𝗙𝗥𝗢𝗡𝗧𝗘𝗥🐉*   
+
+🍍🍍Don't Forget To Give Star⭐ To My Repo`
+
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
