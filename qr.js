@@ -59,7 +59,7 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝚁𝚄𝙽𝙽𝙸𝙽𝙶**
+𝗗𝗥𝗔𝗚𝗢𝗡 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝚁𝚄𝙽𝙽𝙸𝙽𝙶**
 *𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁*
 *𝙊𝙒𝙉𝙀𝙍 : 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁 𝚃𝙴𝙲𝙷*
 ____________________________________
@@ -74,7 +74,7 @@ ____________________________________
 
 ║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254796283064
 
-║ ❒ 𝐑𝐞𝐩𝐨: _https://github.com/confronter/Dragon-Md
+║ ❒ 𝐑𝐞𝐩𝐨: _https://github.com/confronter/Dragon-Md-V1
 
 ║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe_
 
